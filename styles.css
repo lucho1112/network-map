@@ -2,3 +2,10 @@ p {
   color: green;
   display: block;
 }
+.Map {
+  display: none;
+  width: 100%;
+}
+.Map.is-active {
+  display: block;
+}
