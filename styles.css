@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 p {
   color: green;
   display: block;
@@ -8,4 +12,34 @@ p {
 }
 .Map.is-active {
   display: block;
+}
+.NetworkElements {
+  position: relative;
+  list-style-type: none;
+}
+.NetworkElements-nav {
+  padding: 0;
+
+}
+.NetworkElements-nav li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 40rem) {
+  .NetworkElements-nav {
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    color: white;
+    font-weight: bold;
+  }
+  .NetworkElements-nav li {
+    display: block;
+
+  }
+  .NetworkElements-nav li:hover {
+    cursor:pointer;
+    background-color: blue;
+  }
 }
